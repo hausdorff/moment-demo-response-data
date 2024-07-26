@@ -1,0 +1,281 @@
+{
+  "__moment_demo_response_data": true,
+  "$metadata": {
+    "httpStatusCode": 200,
+    "requestId": "2976a873-c9bf-4b4a-a3da-4cdd97c7a590",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "Volumes": [
+    {
+      "Attachments": [
+        {
+          "AttachTime": "2024-07-02T16:08:26.000Z",
+          "Device": "/dev/xvda",
+          "InstanceId": "i-0950d4db37a308932",
+          "State": "attached",
+          "VolumeId": "vol-0b09922bf57e6eebb",
+          "DeleteOnTermination": true
+        }
+      ],
+      "AvailabilityZone": "us-west-1b",
+      "CreateTime": "2024-07-02T16:08:26.239Z",
+      "Encrypted": false,
+      "Size": 80,
+      "SnapshotId": "snap-018c1ea2321358507",
+      "State": "in-use",
+      "VolumeId": "vol-0b09922bf57e6eebb",
+      "Iops": 3000,
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "unique-party-1719935831-ng-f901c612-Node"
+        },
+        {
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-f901c612"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-name",
+          "Value": "ng-f901c612"
+        },
+        {
+          "Key": "eks:cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-type",
+          "Value": "managed"
+        }
+      ],
+      "VolumeType": "gp3",
+      "MultiAttachEnabled": false,
+      "Throughput": 125
+    },
+    {
+      "Attachments": [
+        {
+          "AttachTime": "2024-07-02T16:12:59.000Z",
+          "Device": "/dev/xvda",
+          "InstanceId": "i-0116e04f03a1eb7e0",
+          "State": "attached",
+          "VolumeId": "vol-0f3effe23a9c3662a",
+          "DeleteOnTermination": true
+        }
+      ],
+      "AvailabilityZone": "us-west-1b",
+      "CreateTime": "2024-07-02T16:12:59.813Z",
+      "Encrypted": false,
+      "Size": 80,
+      "SnapshotId": "snap-018c1ea2321358507",
+      "State": "in-use",
+      "VolumeId": "vol-0f3effe23a9c3662a",
+      "Iops": 3000,
+      "Tags": [
+        {
+          "Key": "alpha.eksctl.io/nodegroup-name",
+          "Value": "ng-43688916"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-type",
+          "Value": "managed"
+        },
+        {
+          "Key": "Name",
+          "Value": "hilarious-wardrobe-1719936042-ng-43688916-Node"
+        },
+        {
+          "Key": "eks:cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-43688916"
+        }
+      ],
+      "VolumeType": "gp3",
+      "MultiAttachEnabled": false,
+      "Throughput": 125
+    },
+    {
+      "Attachments": [
+        {
+          "AttachTime": "2024-07-02T16:24:04.000Z",
+          "Device": "/dev/xvda",
+          "InstanceId": "i-06c80e758e5d32940",
+          "State": "attached",
+          "VolumeId": "vol-09bd13574b43dd178",
+          "DeleteOnTermination": true
+        }
+      ],
+      "AvailabilityZone": "us-west-1b",
+      "CreateTime": "2024-07-02T16:24:04.879Z",
+      "Encrypted": false,
+      "Size": 80,
+      "SnapshotId": "snap-018c1ea2321358507",
+      "State": "in-use",
+      "VolumeId": "vol-09bd13574b43dd178",
+      "Iops": 3000,
+      "Tags": [
+        {
+          "Key": "eks:cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "Name",
+          "Value": "floral-badger-1719936732-ng-b65dcfd4-Node"
+        },
+        {
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-b65dcfd4"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-name",
+          "Value": "ng-b65dcfd4"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-type",
+          "Value": "managed"
+        }
+      ],
+      "VolumeType": "gp3",
+      "MultiAttachEnabled": false,
+      "Throughput": 125
+    },
+    {
+      "Attachments": [
+        {
+          "AttachTime": "2024-07-02T16:08:26.000Z",
+          "Device": "/dev/xvda",
+          "InstanceId": "i-0c5b630ba2222cc02",
+          "State": "attached",
+          "VolumeId": "vol-04dc2cb5ed46fddf6",
+          "DeleteOnTermination": true
+        }
+      ],
+      "AvailabilityZone": "us-west-1c",
+      "CreateTime": "2024-07-02T16:08:26.388Z",
+      "Encrypted": false,
+      "Size": 80,
+      "SnapshotId": "snap-018c1ea2321358507",
+      "State": "in-use",
+      "VolumeId": "vol-04dc2cb5ed46fddf6",
+      "Iops": 3000,
+      "Tags": [
+        {
+          "Key": "eks:cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "Name",
+          "Value": "unique-party-1719935831-ng-f901c612-Node"
+        },
+        {
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-f901c612"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-name",
+          "Value": "ng-f901c612"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-type",
+          "Value": "managed"
+        }
+      ],
+      "VolumeType": "gp3",
+      "MultiAttachEnabled": false,
+      "Throughput": 125
+    },
+    {
+      "Attachments": [
+        {
+          "AttachTime": "2024-07-02T16:12:59.000Z",
+          "Device": "/dev/xvda",
+          "InstanceId": "i-0385b48b25f56c673",
+          "State": "attached",
+          "VolumeId": "vol-014fea0335d277138",
+          "DeleteOnTermination": true
+        }
+      ],
+      "AvailabilityZone": "us-west-1c",
+      "CreateTime": "2024-07-02T16:12:59.673Z",
+      "Encrypted": false,
+      "Size": 80,
+      "SnapshotId": "snap-018c1ea2321358507",
+      "State": "in-use",
+      "VolumeId": "vol-014fea0335d277138",
+      "Iops": 3000,
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "hilarious-wardrobe-1719936042-ng-43688916-Node"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-name",
+          "Value": "ng-43688916"
+        },
+        {
+          "Key": "eks:cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-43688916"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-type",
+          "Value": "managed"
+        }
+      ],
+      "VolumeType": "gp3",
+      "MultiAttachEnabled": false,
+      "Throughput": 125
+    },
+    {
+      "Attachments": [
+        {
+          "AttachTime": "2024-07-02T16:24:05.000Z",
+          "Device": "/dev/xvda",
+          "InstanceId": "i-00e36ab640ce734db",
+          "State": "attached",
+          "VolumeId": "vol-02ce321d7eaa8be5e",
+          "DeleteOnTermination": true
+        }
+      ],
+      "AvailabilityZone": "us-west-1c",
+      "CreateTime": "2024-07-02T16:24:05.071Z",
+      "Encrypted": false,
+      "Size": 80,
+      "SnapshotId": "snap-018c1ea2321358507",
+      "State": "in-use",
+      "VolumeId": "vol-02ce321d7eaa8be5e",
+      "Iops": 3000,
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "floral-badger-1719936732-ng-b65dcfd4-Node"
+        },
+        {
+          "Key": "eks:cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-name",
+          "Value": "ng-b65dcfd4"
+        },
+        {
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-b65dcfd4"
+        },
+        {
+          "Key": "alpha.eksctl.io/nodegroup-type",
+          "Value": "managed"
+        }
+      ],
+      "VolumeType": "gp3",
+      "MultiAttachEnabled": false,
+      "Throughput": 125
+    }
+  ]
+}

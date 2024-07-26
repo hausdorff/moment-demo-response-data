@@ -1,0 +1,146 @@
+{
+  "__moment_demo_response_data": true,
+  "$metadata": {
+    "httpStatusCode": 200,
+    "requestId": "6e084056-fe61-4b9f-b584-88fca1faf992",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "Addresses": [
+    {
+      "PublicIp": "13.57.96.249",
+      "AllocationId": "eipalloc-0f7bddeea569a0ea3",
+      "AssociationId": "eipassoc-054de4c0b811c14b7",
+      "Domain": "vpc",
+      "NetworkInterfaceId": "eni-0a3d65cf52c77b6e1",
+      "NetworkInterfaceOwnerId": "754272813611",
+      "PrivateIpAddress": "192.168.29.144",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "eksctl-floral-badger-1719936732-cluster/NATIP"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-floral-badger-1719936732-cluster/d7f3d480-388d-11ef-aac9-066aa9ab48b5"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-floral-badger-1719936732-cluster"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "NATIP"
+        }
+      ],
+      "PublicIpv4Pool": "amazon",
+      "NetworkBorderGroup": "us-west-1"
+    },
+    {
+      "PublicIp": "54.153.7.32",
+      "AllocationId": "eipalloc-03282ecea90a451ad",
+      "AssociationId": "eipassoc-0af2249b28b297a59",
+      "Domain": "vpc",
+      "NetworkInterfaceId": "eni-0a89dabfd742bbd9c",
+      "NetworkInterfaceOwnerId": "754272813611",
+      "PrivateIpAddress": "192.168.28.49",
+      "Tags": [
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-hilarious-wardrobe-1719936042-cluster"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-hilarious-wardrobe-1719936042-cluster/3cb50d50-388c-11ef-ba15-065ce34af205"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "NATIP"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "Name",
+          "Value": "eksctl-hilarious-wardrobe-1719936042-cluster/NATIP"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        }
+      ],
+      "PublicIpv4Pool": "amazon",
+      "NetworkBorderGroup": "us-west-1"
+    },
+    {
+      "PublicIp": "54.193.106.138",
+      "AllocationId": "eipalloc-00d8cf00aed7fb3aa",
+      "AssociationId": "eipassoc-034a0c9cc5cee1099",
+      "Domain": "vpc",
+      "NetworkInterfaceId": "eni-081fcf7155f732507",
+      "NetworkInterfaceOwnerId": "754272813611",
+      "PrivateIpAddress": "192.168.30.70",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "eksctl-unique-party-1719935831-cluster/NATIP"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "NATIP"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-unique-party-1719935831-cluster/bed4a030-388b-11ef-92f3-0644d0b76191"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-unique-party-1719935831-cluster"
+        }
+      ],
+      "PublicIpv4Pool": "amazon",
+      "NetworkBorderGroup": "us-west-1"
+    }
+  ]
+}

@@ -1,0 +1,693 @@
+{
+  "__moment_demo_response_data": true,
+  "$metadata": {
+    "httpStatusCode": 200,
+    "requestId": "b6af6979-2824-44f2-8af8-cf750357027e",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "SecurityGroups": [
+    {
+      "Description": "Communication between the control plane and worker nodegroups",
+      "GroupName": "eksctl-hilarious-wardrobe-1719936042-cluster-ControlPlaneSecurityGroup-0Gb6wEymZAbX",
+      "IpPermissions": [],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-0b1d0896b9a686c25",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-hilarious-wardrobe-1719936042-cluster/3cb50d50-388c-11ef-ba15-065ce34af205"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-hilarious-wardrobe-1719936042-cluster"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "ControlPlaneSecurityGroup"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "Name",
+          "Value": "eksctl-hilarious-wardrobe-1719936042-cluster/ControlPlaneSecurityGroup"
+        }
+      ],
+      "VpcId": "vpc-0285a21248ee5b072"
+    },
+    {
+      "Description": "Communication between the control plane and worker nodegroups",
+      "GroupName": "eksctl-unique-party-1719935831-cluster-ControlPlaneSecurityGroup-3gXDVAbMlDuo",
+      "IpPermissions": [],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-0c7db9353345b0fd6",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-unique-party-1719935831-cluster/bed4a030-388b-11ef-92f3-0644d0b76191"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-unique-party-1719935831-cluster"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "Name",
+          "Value": "eksctl-unique-party-1719935831-cluster/ControlPlaneSecurityGroup"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "ControlPlaneSecurityGroup"
+        }
+      ],
+      "VpcId": "vpc-06be47aad07fceb3b"
+    },
+    {
+      "Description": "default VPC security group",
+      "GroupName": "default",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "GroupId": "sg-00c976b7e58cde4b0",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-00c976b7e58cde4b0",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-06be47aad07fceb3b"
+    },
+    {
+      "Description": "Communication between all nodes in the cluster",
+      "GroupName": "eksctl-unique-party-1719935831-cluster-ClusterSharedNodeSecurityGroup-a6yzeLiqWVem",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "Description": "Allow nodes to communicate with each other (all ports)",
+              "GroupId": "sg-0198e3ccb5b06422a",
+              "UserId": "754272813611"
+            },
+            {
+              "Description": "Allow managed and unmanaged nodes to communicate with each other (all ports)",
+              "GroupId": "sg-0c224359a8d5f83cc",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-0198e3ccb5b06422a",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "ClusterSharedNodeSecurityGroup"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-unique-party-1719935831-cluster"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "Name",
+          "Value": "eksctl-unique-party-1719935831-cluster/ClusterSharedNodeSecurityGroup"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-unique-party-1719935831-cluster/bed4a030-388b-11ef-92f3-0644d0b76191"
+        }
+      ],
+      "VpcId": "vpc-06be47aad07fceb3b"
+    },
+    {
+      "Description": "Communication between the control plane and worker nodegroups",
+      "GroupName": "eksctl-floral-badger-1719936732-cluster-ControlPlaneSecurityGroup-S7ndBq1qc7W0",
+      "IpPermissions": [],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-04c3ddd9218e1efe3",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "Name",
+          "Value": "eksctl-floral-badger-1719936732-cluster/ControlPlaneSecurityGroup"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-floral-badger-1719936732-cluster"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-floral-badger-1719936732-cluster/d7f3d480-388d-11ef-aac9-066aa9ab48b5"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "ControlPlaneSecurityGroup"
+        }
+      ],
+      "VpcId": "vpc-022dad28135a1ed1c"
+    },
+    {
+      "Description": "default VPC security group",
+      "GroupName": "default",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "GroupId": "sg-050b0ebb6d12e1e96",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-050b0ebb6d12e1e96",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-0285a21248ee5b072"
+    },
+    {
+      "Description": "Communication between all nodes in the cluster",
+      "GroupName": "eksctl-floral-badger-1719936732-cluster-ClusterSharedNodeSecurityGroup-TlUFIRDCN7hr",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "Description": "Allow nodes to communicate with each other (all ports)",
+              "GroupId": "sg-04a263a9cd9f0e30b",
+              "UserId": "754272813611"
+            },
+            {
+              "Description": "Allow managed and unmanaged nodes to communicate with each other (all ports)",
+              "GroupId": "sg-059cbeb92cb2628ee",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-04a263a9cd9f0e30b",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "eksctl-floral-badger-1719936732-cluster/ClusterSharedNodeSecurityGroup"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-floral-badger-1719936732-cluster/d7f3d480-388d-11ef-aac9-066aa9ab48b5"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "ClusterSharedNodeSecurityGroup"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-floral-badger-1719936732-cluster"
+        }
+      ],
+      "VpcId": "vpc-022dad28135a1ed1c"
+    },
+    {
+      "Description": "Communication between all nodes in the cluster",
+      "GroupName": "eksctl-hilarious-wardrobe-1719936042-cluster-ClusterSharedNodeSecurityGroup-l3Aw8YC8lxSk",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "Description": "Allow nodes to communicate with each other (all ports)",
+              "GroupId": "sg-04d864077801d2584",
+              "UserId": "754272813611"
+            },
+            {
+              "Description": "Allow managed and unmanaged nodes to communicate with each other (all ports)",
+              "GroupId": "sg-0bf80dcedc3320f04",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-04d864077801d2584",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "eksctl-hilarious-wardrobe-1719936042-cluster/ClusterSharedNodeSecurityGroup"
+        },
+        {
+          "Key": "aws:cloudformation:stack-id",
+          "Value": "arn:aws:cloudformation:us-west-1:754272813611:stack/eksctl-hilarious-wardrobe-1719936042-cluster/3cb50d50-388c-11ef-ba15-065ce34af205"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+          "Value": "false"
+        },
+        {
+          "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "alpha.eksctl.io/cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "aws:cloudformation:stack-name",
+          "Value": "eksctl-hilarious-wardrobe-1719936042-cluster"
+        },
+        {
+          "Key": "alpha.eksctl.io/eksctl-version",
+          "Value": "0.171.0"
+        },
+        {
+          "Key": "aws:cloudformation:logical-id",
+          "Value": "ClusterSharedNodeSecurityGroup"
+        }
+      ],
+      "VpcId": "vpc-0285a21248ee5b072"
+    },
+    {
+      "Description": "EKS created security group applied to ENI that is attached to EKS Control Plane master nodes, as well as any managed workloads.",
+      "GroupName": "eks-cluster-sg-unique-party-1719935831-1222427028",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "GroupId": "sg-0c224359a8d5f83cc",
+              "UserId": "754272813611"
+            },
+            {
+              "Description": "Allow unmanaged nodes to communicate with control plane (all ports)",
+              "GroupId": "sg-0198e3ccb5b06422a",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-0c224359a8d5f83cc",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "eks-cluster-sg-unique-party-1719935831-1222427028"
+        },
+        {
+          "Key": "aws:eks:cluster-name",
+          "Value": "unique-party-1719935831"
+        },
+        {
+          "Key": "kubernetes.io/cluster/unique-party-1719935831",
+          "Value": "owned"
+        }
+      ],
+      "VpcId": "vpc-06be47aad07fceb3b"
+    },
+    {
+      "Description": "default VPC security group",
+      "GroupName": "default",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "GroupId": "sg-0a6fc7e3190d7d9d2",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-0a6fc7e3190d7d9d2",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-084b8009e4fe28cc0"
+    },
+    {
+      "Description": "default VPC security group",
+      "GroupName": "default",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "GroupId": "sg-0eb8e6b853376c8a2",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-0eb8e6b853376c8a2",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-022dad28135a1ed1c"
+    },
+    {
+      "Description": "EKS created security group applied to ENI that is attached to EKS Control Plane master nodes, as well as any managed workloads.",
+      "GroupName": "eks-cluster-sg-hilarious-wardrobe-1719936042-278788156",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "GroupId": "sg-0bf80dcedc3320f04",
+              "UserId": "754272813611"
+            },
+            {
+              "Description": "Allow unmanaged nodes to communicate with control plane (all ports)",
+              "GroupId": "sg-04d864077801d2584",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-0bf80dcedc3320f04",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "aws:eks:cluster-name",
+          "Value": "hilarious-wardrobe-1719936042"
+        },
+        {
+          "Key": "Name",
+          "Value": "eks-cluster-sg-hilarious-wardrobe-1719936042-278788156"
+        },
+        {
+          "Key": "kubernetes.io/cluster/hilarious-wardrobe-1719936042",
+          "Value": "owned"
+        }
+      ],
+      "VpcId": "vpc-0285a21248ee5b072"
+    },
+    {
+      "Description": "EKS created security group applied to ENI that is attached to EKS Control Plane master nodes, as well as any managed workloads.",
+      "GroupName": "eks-cluster-sg-floral-badger-1719936732-1812393005",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": [
+            {
+              "GroupId": "sg-059cbeb92cb2628ee",
+              "UserId": "754272813611"
+            },
+            {
+              "Description": "Allow unmanaged nodes to communicate with control plane (all ports)",
+              "GroupId": "sg-04a263a9cd9f0e30b",
+              "UserId": "754272813611"
+            }
+          ]
+        }
+      ],
+      "OwnerId": "754272813611",
+      "GroupId": "sg-059cbeb92cb2628ee",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "Tags": [
+        {
+          "Key": "kubernetes.io/cluster/floral-badger-1719936732",
+          "Value": "owned"
+        },
+        {
+          "Key": "aws:eks:cluster-name",
+          "Value": "floral-badger-1719936732"
+        },
+        {
+          "Key": "Name",
+          "Value": "eks-cluster-sg-floral-badger-1719936732-1812393005"
+        }
+      ],
+      "VpcId": "vpc-022dad28135a1ed1c"
+    }
+  ]
+}

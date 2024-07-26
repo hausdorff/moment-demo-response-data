@@ -1,0 +1,624 @@
+{
+  "__moment_demo_response_data": true,
+  "$metadata": {
+    "httpStatusCode": 200,
+    "requestId": "cdbf5783-2d14-44cd-bd78-2bf57a6c1d1c",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "AutoScalingGroups": [
+    {
+      "AutoScalingGroupName": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+      "AutoScalingGroupARN": "arn:aws:autoscaling:us-west-1:754272813611:autoScalingGroup:f59e24f6-9d20-44dd-93fb-04503dd05086:autoScalingGroupName/eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+      "MixedInstancesPolicy": {
+        "LaunchTemplate": {
+          "LaunchTemplateSpecification": {
+            "LaunchTemplateId": "lt-071fbc6a3cf67a174",
+            "LaunchTemplateName": "eks-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+            "Version": "1"
+          },
+          "Overrides": [
+            {
+              "InstanceType": "m5.large"
+            }
+          ]
+        },
+        "InstancesDistribution": {
+          "OnDemandAllocationStrategy": "prioritized",
+          "OnDemandBaseCapacity": 0,
+          "OnDemandPercentageAboveBaseCapacity": 100,
+          "SpotAllocationStrategy": "lowest-price",
+          "SpotInstancePools": 2
+        }
+      },
+      "MinSize": 2,
+      "MaxSize": 2,
+      "DesiredCapacity": 2,
+      "DefaultCooldown": 300,
+      "AvailabilityZones": [
+        "us-west-1b",
+        "us-west-1c"
+      ],
+      "LoadBalancerNames": [],
+      "TargetGroupARNs": [],
+      "HealthCheckType": "EC2",
+      "HealthCheckGracePeriod": 15,
+      "Instances": [
+        {
+          "InstanceId": "i-0116e04f03a1eb7e0",
+          "InstanceType": "m5.large",
+          "AvailabilityZone": "us-west-1b",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-071fbc6a3cf67a174",
+            "LaunchTemplateName": "eks-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        },
+        {
+          "InstanceId": "i-0385b48b25f56c673",
+          "InstanceType": "m5.large",
+          "AvailabilityZone": "us-west-1c",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-071fbc6a3cf67a174",
+            "LaunchTemplateName": "eks-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        }
+      ],
+      "CreatedTime": "2024-07-02T16:12:51.818Z",
+      "SuspendedProcesses": [],
+      "VPCZoneIdentifier": "subnet-077b8b8fe927c8530,subnet-0396f40750faf3466",
+      "EnabledMetrics": [
+        {
+          "Metric": "WarmPoolTotalCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupAndWarmPoolTotalCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolWarmedCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupInServiceCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolMinSize",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupStandbyInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupAndWarmPoolDesiredCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupPendingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupMaxSize",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTerminatingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolPendingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupDesiredCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolDesiredCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolTerminatingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupStandbyCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTerminatingInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupInServiceInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupMinSize",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupPendingInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTotalCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTotalInstances",
+          "Granularity": "1Minute"
+        }
+      ],
+      "Tags": [
+        {
+          "ResourceId": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:cluster-name",
+          "Value": "hilarious-wardrobe-1719936042",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-43688916",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/enabled",
+          "Value": "true",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/hilarious-wardrobe-1719936042",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+          "ResourceType": "auto-scaling-group",
+          "Key": "kubernetes.io/cluster/hilarious-wardrobe-1719936042",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        }
+      ],
+      "TerminationPolicies": [
+        "AllocationStrategy",
+        "OldestLaunchTemplate",
+        "OldestInstance"
+      ],
+      "NewInstancesProtectedFromScaleIn": false,
+      "ServiceLinkedRoleARN": "arn:aws:iam::754272813611:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+      "CapacityRebalance": true
+    },
+    {
+      "AutoScalingGroupName": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+      "AutoScalingGroupARN": "arn:aws:autoscaling:us-west-1:754272813611:autoScalingGroup:b90edb2d-cd16-4961-9636-04ad0d5c6b5b:autoScalingGroupName/eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+      "MixedInstancesPolicy": {
+        "LaunchTemplate": {
+          "LaunchTemplateSpecification": {
+            "LaunchTemplateId": "lt-0de3f2f62c4d852eb",
+            "LaunchTemplateName": "eks-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+            "Version": "1"
+          },
+          "Overrides": [
+            {
+              "InstanceType": "m5.large"
+            }
+          ]
+        },
+        "InstancesDistribution": {
+          "OnDemandAllocationStrategy": "prioritized",
+          "OnDemandBaseCapacity": 0,
+          "OnDemandPercentageAboveBaseCapacity": 100,
+          "SpotAllocationStrategy": "lowest-price",
+          "SpotInstancePools": 2
+        }
+      },
+      "MinSize": 0,
+      "MaxSize": 0,
+      "DesiredCapacity": 0,
+      "DefaultCooldown": 300,
+      "AvailabilityZones": [
+        "us-west-1b",
+        "us-west-1c"
+      ],
+      "LoadBalancerNames": [],
+      "TargetGroupARNs": [],
+      "HealthCheckType": "EC2",
+      "HealthCheckGracePeriod": 15,
+      "Instances": [
+        {
+          "InstanceId": "i-0bc98d29b0c1e052a",
+          "InstanceType": "m5.large",
+          "AvailabilityZone": "us-west-1c",
+          "LifecycleState": "Terminating:Wait",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-0de3f2f62c4d852eb",
+            "LaunchTemplateName": "eks-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        }
+      ],
+      "CreatedTime": "2024-07-02T16:32:33.655Z",
+      "SuspendedProcesses": [],
+      "VPCZoneIdentifier": "subnet-0bcfde17ead0b5db4,subnet-0a73e13bcc804ecda",
+      "EnabledMetrics": [],
+      "Tags": [
+        {
+          "ResourceId": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:cluster-name",
+          "Value": "beautiful-unicorn-1719937283",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-5839a12c",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/beautiful-unicorn-1719937283",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/enabled",
+          "Value": "true",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7",
+          "ResourceType": "auto-scaling-group",
+          "Key": "kubernetes.io/cluster/beautiful-unicorn-1719937283",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        }
+      ],
+      "TerminationPolicies": [
+        "AllocationStrategy",
+        "OldestLaunchTemplate",
+        "OldestInstance"
+      ],
+      "NewInstancesProtectedFromScaleIn": false,
+      "ServiceLinkedRoleARN": "arn:aws:iam::754272813611:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+      "CapacityRebalance": true
+    },
+    {
+      "AutoScalingGroupName": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+      "AutoScalingGroupARN": "arn:aws:autoscaling:us-west-1:754272813611:autoScalingGroup:2e80d0fa-1171-451a-8173-44fb18beb588:autoScalingGroupName/eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+      "MixedInstancesPolicy": {
+        "LaunchTemplate": {
+          "LaunchTemplateSpecification": {
+            "LaunchTemplateId": "lt-07a542e2fd0a4fd4f",
+            "LaunchTemplateName": "eks-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+            "Version": "1"
+          },
+          "Overrides": [
+            {
+              "InstanceType": "m5.large"
+            }
+          ]
+        },
+        "InstancesDistribution": {
+          "OnDemandAllocationStrategy": "prioritized",
+          "OnDemandBaseCapacity": 0,
+          "OnDemandPercentageAboveBaseCapacity": 100,
+          "SpotAllocationStrategy": "lowest-price",
+          "SpotInstancePools": 2
+        }
+      },
+      "MinSize": 2,
+      "MaxSize": 2,
+      "DesiredCapacity": 2,
+      "DefaultCooldown": 300,
+      "AvailabilityZones": [
+        "us-west-1b",
+        "us-west-1c"
+      ],
+      "LoadBalancerNames": [],
+      "TargetGroupARNs": [],
+      "HealthCheckType": "EC2",
+      "HealthCheckGracePeriod": 15,
+      "Instances": [
+        {
+          "InstanceId": "i-00e36ab640ce734db",
+          "InstanceType": "m5.large",
+          "AvailabilityZone": "us-west-1c",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-07a542e2fd0a4fd4f",
+            "LaunchTemplateName": "eks-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        },
+        {
+          "InstanceId": "i-06c80e758e5d32940",
+          "InstanceType": "m5.large",
+          "AvailabilityZone": "us-west-1b",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-07a542e2fd0a4fd4f",
+            "LaunchTemplateName": "eks-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        }
+      ],
+      "CreatedTime": "2024-07-02T16:23:57.816Z",
+      "SuspendedProcesses": [],
+      "VPCZoneIdentifier": "subnet-05bec811e42bb947c,subnet-08592eb9688d0130b",
+      "EnabledMetrics": [],
+      "Tags": [
+        {
+          "ResourceId": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:cluster-name",
+          "Value": "floral-badger-1719936732",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-b65dcfd4",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/enabled",
+          "Value": "true",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/floral-badger-1719936732",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+          "ResourceType": "auto-scaling-group",
+          "Key": "kubernetes.io/cluster/floral-badger-1719936732",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        }
+      ],
+      "TerminationPolicies": [
+        "AllocationStrategy",
+        "OldestLaunchTemplate",
+        "OldestInstance"
+      ],
+      "NewInstancesProtectedFromScaleIn": false,
+      "ServiceLinkedRoleARN": "arn:aws:iam::754272813611:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+      "CapacityRebalance": true
+    },
+    {
+      "AutoScalingGroupName": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471",
+      "AutoScalingGroupARN": "arn:aws:autoscaling:us-west-1:754272813611:autoScalingGroup:94559679-293a-4f90-af02-983f660dd722:autoScalingGroupName/eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471",
+      "MixedInstancesPolicy": {
+        "LaunchTemplate": {
+          "LaunchTemplateSpecification": {
+            "LaunchTemplateId": "lt-06c2b88c16d6966c5",
+            "LaunchTemplateName": "eks-8ec83a19-d457-1def-732a-950046741471",
+            "Version": "1"
+          },
+          "Overrides": [
+            {
+              "InstanceType": "m5.large"
+            }
+          ]
+        },
+        "InstancesDistribution": {
+          "OnDemandAllocationStrategy": "prioritized",
+          "OnDemandBaseCapacity": 0,
+          "OnDemandPercentageAboveBaseCapacity": 100,
+          "SpotAllocationStrategy": "lowest-price",
+          "SpotInstancePools": 2
+        }
+      },
+      "MinSize": 2,
+      "MaxSize": 2,
+      "DesiredCapacity": 2,
+      "DefaultCooldown": 300,
+      "AvailabilityZones": [
+        "us-west-1b",
+        "us-west-1c"
+      ],
+      "LoadBalancerNames": [],
+      "TargetGroupARNs": [],
+      "HealthCheckType": "EC2",
+      "HealthCheckGracePeriod": 15,
+      "Instances": [
+        {
+          "InstanceId": "i-0950d4db37a308932",
+          "InstanceType": "m5.large",
+          "AvailabilityZone": "us-west-1b",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-06c2b88c16d6966c5",
+            "LaunchTemplateName": "eks-8ec83a19-d457-1def-732a-950046741471",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        },
+        {
+          "InstanceId": "i-0c5b630ba2222cc02",
+          "InstanceType": "m5.large",
+          "AvailabilityZone": "us-west-1c",
+          "LifecycleState": "InService",
+          "HealthStatus": "Healthy",
+          "LaunchTemplate": {
+            "LaunchTemplateId": "lt-06c2b88c16d6966c5",
+            "LaunchTemplateName": "eks-8ec83a19-d457-1def-732a-950046741471",
+            "Version": "1"
+          },
+          "ProtectedFromScaleIn": false
+        }
+      ],
+      "CreatedTime": "2024-07-02T16:08:22.310Z",
+      "SuspendedProcesses": [],
+      "VPCZoneIdentifier": "subnet-019243923c072df1d,subnet-0139de6c5f7637a94",
+      "EnabledMetrics": [
+        {
+          "Metric": "GroupAndWarmPoolDesiredCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupInServiceCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupStandbyInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupAndWarmPoolTotalCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolDesiredCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolMinSize",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolTerminatingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTotalInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupPendingInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTotalCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupMinSize",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolPendingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupStandbyCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupInServiceInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolWarmedCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTerminatingInstances",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupDesiredCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupTerminatingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupMaxSize",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "GroupPendingCapacity",
+          "Granularity": "1Minute"
+        },
+        {
+          "Metric": "WarmPoolTotalCapacity",
+          "Granularity": "1Minute"
+        }
+      ],
+      "Tags": [
+        {
+          "ResourceId": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:cluster-name",
+          "Value": "unique-party-1719935831",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471",
+          "ResourceType": "auto-scaling-group",
+          "Key": "eks:nodegroup-name",
+          "Value": "ng-f901c612",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/enabled",
+          "Value": "true",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471",
+          "ResourceType": "auto-scaling-group",
+          "Key": "k8s.io/cluster-autoscaler/unique-party-1719935831",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        },
+        {
+          "ResourceId": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471",
+          "ResourceType": "auto-scaling-group",
+          "Key": "kubernetes.io/cluster/unique-party-1719935831",
+          "Value": "owned",
+          "PropagateAtLaunch": true
+        }
+      ],
+      "TerminationPolicies": [
+        "AllocationStrategy",
+        "OldestLaunchTemplate",
+        "OldestInstance"
+      ],
+      "NewInstancesProtectedFromScaleIn": false,
+      "ServiceLinkedRoleARN": "arn:aws:iam::754272813611:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+      "CapacityRebalance": true
+    }
+  ]
+}

@@ -1,0 +1,1893 @@
+{
+  "__moment_demo_response_data": true,
+  "$metadata": {
+    "httpStatusCode": 200,
+    "requestId": "00fe93bc-596c-44b7-990e-16435d0d26d2",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "Reservations": [
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-06c80e758e5d32940",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:24:04.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1b",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-192-168-0-73.us-west-1.compute.internal",
+          "PrivateIpAddress": "192.168.0.73",
+          "ProductCodes": [],
+          "PublicDnsName": "ec2-54-177-171-243.us-west-1.compute.amazonaws.com",
+          "PublicIpAddress": "54.177.171.243",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "StateTransitionReason": "",
+          "SubnetId": "subnet-05bec811e42bb947c",
+          "VpcId": "vpc-022dad28135a1ed1c",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2024-07-02T16:24:04.000Z",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-09bd13574b43dd178"
+              }
+            }
+          ],
+          "ClientToken": "fleet-bfbe042e-6e2c-ee3e-0698-878002bcec6a-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::754272813611:instance-profile/eks-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+            "Id": "AIPA27HRJYIVWKVZQ5YA2"
+          },
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-54-177-171-243.us-west-1.compute.amazonaws.com",
+                "PublicIp": "54.177.171.243"
+              },
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:24:04.000Z",
+                "AttachmentId": "eni-attach-028229def7ebd8a90",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-floral-badger-1719936732-1812393005",
+                  "GroupId": "sg-059cbeb92cb2628ee"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "06:bc:32:47:8e:cb",
+              "NetworkInterfaceId": "eni-0ba3c04efb471fa3a",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-0-73.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.0.73",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "ec2-54-177-171-243.us-west-1.compute.amazonaws.com",
+                    "PublicIp": "54.177.171.243"
+                  },
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-0-73.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.0.73"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-13-26.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.13.26"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-26-43.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.26.43"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-27-220.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.27.220"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-8-253.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.8.253"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-6-64.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.6.64"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-14-49.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.14.49"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-8-194.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.8.194"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-8-211.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.8.211"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-13-67.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.13.67"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-05bec811e42bb947c",
+              "VpcId": "vpc-022dad28135a1ed1c",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "eks-cluster-sg-floral-badger-1719936732-1812393005",
+              "GroupId": "sg-059cbeb92cb2628ee"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "eks:cluster-name",
+              "Value": "floral-badger-1719936732"
+            },
+            {
+              "Key": "kubernetes.io/cluster/floral-badger-1719936732",
+              "Value": "owned"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/floral-badger-1719936732",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            },
+            {
+              "Key": "aws:eks:cluster-name",
+              "Value": "floral-badger-1719936732"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-07a542e2fd0a4fd4f"
+            },
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-b65dcfd4"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-b65dcfd4"
+            },
+            {
+              "Key": "Name",
+              "Value": "floral-badger-1719936732-ng-b65dcfd4-Node"
+            },
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-bfbe042e-6e2c-ee3e-0698-878002bcec6a"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:24:04.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-07300780388296afb"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-0116e04f03a1eb7e0",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:12:59.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1b",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-192-168-6-63.us-west-1.compute.internal",
+          "PrivateIpAddress": "192.168.6.63",
+          "ProductCodes": [],
+          "PublicDnsName": "ec2-13-57-244-105.us-west-1.compute.amazonaws.com",
+          "PublicIpAddress": "13.57.244.105",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "StateTransitionReason": "",
+          "SubnetId": "subnet-0396f40750faf3466",
+          "VpcId": "vpc-0285a21248ee5b072",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2024-07-02T16:12:59.000Z",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-0f3effe23a9c3662a"
+              }
+            }
+          ],
+          "ClientToken": "fleet-9f872f2e-b49f-413e-2e30-0e2a514d8ee1-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::754272813611:instance-profile/eks-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+            "Id": "AIPA27HRJYIVRHD3SUBKX"
+          },
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-13-57-244-105.us-west-1.compute.amazonaws.com",
+                "PublicIp": "13.57.244.105"
+              },
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:12:59.000Z",
+                "AttachmentId": "eni-attach-07c650ee64fd64907",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-hilarious-wardrobe-1719936042-278788156",
+                  "GroupId": "sg-0bf80dcedc3320f04"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "06:a6:09:14:d0:77",
+              "NetworkInterfaceId": "eni-0bbc5b751e72eb0bd",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-6-63.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.6.63",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "ec2-13-57-244-105.us-west-1.compute.amazonaws.com",
+                    "PublicIp": "13.57.244.105"
+                  },
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-6-63.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.6.63"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-29-122.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.29.122"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-22-27.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.22.27"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-11-75.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.11.75"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-5-13.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.5.13"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-15-110.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.15.110"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-24-176.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.24.176"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-27-17.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.27.17"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-10-228.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.10.228"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-18-150.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.18.150"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-0396f40750faf3466",
+              "VpcId": "vpc-0285a21248ee5b072",
+              "InterfaceType": "interface"
+            },
+            {
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:13:42.000Z",
+                "AttachmentId": "eni-attach-03e904fdf6d1e6bcb",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 1,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "aws-K8S-i-0116e04f03a1eb7e0",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-hilarious-wardrobe-1719936042-278788156",
+                  "GroupId": "sg-0bf80dcedc3320f04"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "06:1c:35:ea:c1:e3",
+              "NetworkInterfaceId": "eni-0e14675487d8bef05",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-25-164.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.25.164",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-25-164.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.25.164"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-23-203.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.23.203"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-1-238.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.1.238"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-8-65.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.8.65"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-27-34.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.27.34"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-4-83.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.4.83"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-2-100.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.2.100"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-17-164.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.17.164"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-22-23.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.22.23"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-28-23.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.28.23"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-0396f40750faf3466",
+              "VpcId": "vpc-0285a21248ee5b072",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "eks-cluster-sg-hilarious-wardrobe-1719936042-278788156",
+              "GroupId": "sg-0bf80dcedc3320f04"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-9f872f2e-b49f-413e-2e30-0e2a514d8ee1"
+            },
+            {
+              "Key": "Name",
+              "Value": "hilarious-wardrobe-1719936042-ng-43688916-Node"
+            },
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-43688916"
+            },
+            {
+              "Key": "aws:eks:cluster-name",
+              "Value": "hilarious-wardrobe-1719936042"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/hilarious-wardrobe-1719936042",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-071fbc6a3cf67a174"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-43688916"
+            },
+            {
+              "Key": "eks:cluster-name",
+              "Value": "hilarious-wardrobe-1719936042"
+            },
+            {
+              "Key": "kubernetes.io/cluster/hilarious-wardrobe-1719936042",
+              "Value": "owned"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:12:59.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-0d248c3b46aaa6bd7"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-0950d4db37a308932",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:08:25.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1b",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-192-168-3-8.us-west-1.compute.internal",
+          "PrivateIpAddress": "192.168.3.8",
+          "ProductCodes": [],
+          "PublicDnsName": "ec2-54-153-79-128.us-west-1.compute.amazonaws.com",
+          "PublicIpAddress": "54.153.79.128",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "StateTransitionReason": "",
+          "SubnetId": "subnet-0139de6c5f7637a94",
+          "VpcId": "vpc-06be47aad07fceb3b",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2024-07-02T16:08:26.000Z",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-0b09922bf57e6eebb"
+              }
+            }
+          ],
+          "ClientToken": "fleet-1d2d252c-b697-6b36-0c3a-a68251de069c-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::754272813611:instance-profile/eks-8ec83a19-d457-1def-732a-950046741471",
+            "Id": "AIPA27HRJYIVYWBSX7DIY"
+          },
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-54-153-79-128.us-west-1.compute.amazonaws.com",
+                "PublicIp": "54.153.79.128"
+              },
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:08:25.000Z",
+                "AttachmentId": "eni-attach-046ea276b35364ef1",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-unique-party-1719935831-1222427028",
+                  "GroupId": "sg-0c224359a8d5f83cc"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "06:ec:39:c5:95:65",
+              "NetworkInterfaceId": "eni-0e7c47d067bf55e1f",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-3-8.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.3.8",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "ec2-54-153-79-128.us-west-1.compute.amazonaws.com",
+                    "PublicIp": "54.153.79.128"
+                  },
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-3-8.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.3.8"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-2-249.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.2.249"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-27-154.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.27.154"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-30-204.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.30.204"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-16-237.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.16.237"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-13-48.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.13.48"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-7-35.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.7.35"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-7-147.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.7.147"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-26-212.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.26.212"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-29-54.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.29.54"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-0139de6c5f7637a94",
+              "VpcId": "vpc-06be47aad07fceb3b",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "eks-cluster-sg-unique-party-1719935831-1222427028",
+              "GroupId": "sg-0c224359a8d5f83cc"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "eks:cluster-name",
+              "Value": "unique-party-1719935831"
+            },
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-1d2d252c-b697-6b36-0c3a-a68251de069c"
+            },
+            {
+              "Key": "Name",
+              "Value": "unique-party-1719935831-ng-f901c612-Node"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-f901c612"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            },
+            {
+              "Key": "aws:eks:cluster-name",
+              "Value": "unique-party-1719935831"
+            },
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-f901c612"
+            },
+            {
+              "Key": "kubernetes.io/cluster/unique-party-1719935831",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-06c2b88c16d6966c5"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/unique-party-1719935831",
+              "Value": "owned"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:08:25.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-068290483c9e4df71"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-0756ff1817c95bb0e",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:32:40.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1b",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "",
+          "ProductCodes": [],
+          "PublicDnsName": "",
+          "State": {
+            "Code": 48,
+            "Name": "terminated"
+          },
+          "StateTransitionReason": "User initiated (2024-07-26 18:58:52 GMT)",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [],
+          "ClientToken": "fleet-1d0f0d2e-1417-e114-2e10-26a239e69700-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [],
+          "StateReason": {
+            "Code": "Client.UserInitiatedShutdown",
+            "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          "Tags": [
+            {
+              "Key": "kubernetes.io/cluster/beautiful-unicorn-1719937283",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7"
+            },
+            {
+              "Key": "eks:cluster-name",
+              "Value": "beautiful-unicorn-1719937283"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-0de3f2f62c4d852eb"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/beautiful-unicorn-1719937283",
+              "Value": "owned"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-5839a12c"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-5839a12c"
+            },
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-1d0f0d2e-1417-e114-2e10-26a239e69700"
+            },
+            {
+              "Key": "Name",
+              "Value": "beautiful-unicorn-1719937283-ng-5839a12c-Node"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "pending",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:32:40.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-0ffc3f5e10fd16ac9"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-0c5b630ba2222cc02",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:08:25.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1c",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-192-168-51-76.us-west-1.compute.internal",
+          "PrivateIpAddress": "192.168.51.76",
+          "ProductCodes": [],
+          "PublicDnsName": "ec2-54-215-226-0.us-west-1.compute.amazonaws.com",
+          "PublicIpAddress": "54.215.226.0",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "StateTransitionReason": "",
+          "SubnetId": "subnet-019243923c072df1d",
+          "VpcId": "vpc-06be47aad07fceb3b",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2024-07-02T16:08:26.000Z",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-04dc2cb5ed46fddf6"
+              }
+            }
+          ],
+          "ClientToken": "fleet-091e3a37-f18c-cc8d-0610-0182b073023b-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::754272813611:instance-profile/eks-8ec83a19-d457-1def-732a-950046741471",
+            "Id": "AIPA27HRJYIVYWBSX7DIY"
+          },
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-54-215-226-0.us-west-1.compute.amazonaws.com",
+                "PublicIp": "54.215.226.0"
+              },
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:08:25.000Z",
+                "AttachmentId": "eni-attach-06cd808116e2001eb",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-unique-party-1719935831-1222427028",
+                  "GroupId": "sg-0c224359a8d5f83cc"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "02:c2:7a:2a:8c:e9",
+              "NetworkInterfaceId": "eni-0150e20985c5a9a6c",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-51-76.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.51.76",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "ec2-54-215-226-0.us-west-1.compute.amazonaws.com",
+                    "PublicIp": "54.215.226.0"
+                  },
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-51-76.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.51.76"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-45-123.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.45.123"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-52-27.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.52.27"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-41-236.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.41.236"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-59-16.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.59.16"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-34-48.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.34.48"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-51-177.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.51.177"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-46-243.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.46.243"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-50-165.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.50.165"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-32-103.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.32.103"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-019243923c072df1d",
+              "VpcId": "vpc-06be47aad07fceb3b",
+              "InterfaceType": "interface"
+            },
+            {
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:09:04.000Z",
+                "AttachmentId": "eni-attach-085feb4f6027031f0",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 1,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "aws-K8S-i-0c5b630ba2222cc02",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-unique-party-1719935831-1222427028",
+                  "GroupId": "sg-0c224359a8d5f83cc"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "02:be:57:1e:d2:bb",
+              "NetworkInterfaceId": "eni-0453019676b0b1c08",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-56-197.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.56.197",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-56-197.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.56.197"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-32-137.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.32.137"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-55-90.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.55.90"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-35-205.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.35.205"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-52-131.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.52.131"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-41-164.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.41.164"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-46-213.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.46.213"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-53-85.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.53.85"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-53-165.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.53.165"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-58-230.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.58.230"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-019243923c072df1d",
+              "VpcId": "vpc-06be47aad07fceb3b",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "eks-cluster-sg-unique-party-1719935831-1222427028",
+              "GroupId": "sg-0c224359a8d5f83cc"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "eks:cluster-name",
+              "Value": "unique-party-1719935831"
+            },
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-091e3a37-f18c-cc8d-0610-0182b073023b"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/unique-party-1719935831",
+              "Value": "owned"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-f901c612"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "kubernetes.io/cluster/unique-party-1719935831",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-f901c612-8ec83a19-d457-1def-732a-950046741471"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-f901c612"
+            },
+            {
+              "Key": "Name",
+              "Value": "unique-party-1719935831-ng-f901c612-Node"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-06c2b88c16d6966c5"
+            },
+            {
+              "Key": "aws:eks:cluster-name",
+              "Value": "unique-party-1719935831"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:08:25.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-04788b8a6e92a76bd"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-0385b48b25f56c673",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:12:59.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1c",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-192-168-42-149.us-west-1.compute.internal",
+          "PrivateIpAddress": "192.168.42.149",
+          "ProductCodes": [],
+          "PublicDnsName": "ec2-3-101-110-88.us-west-1.compute.amazonaws.com",
+          "PublicIpAddress": "3.101.110.88",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "StateTransitionReason": "",
+          "SubnetId": "subnet-077b8b8fe927c8530",
+          "VpcId": "vpc-0285a21248ee5b072",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2024-07-02T16:12:59.000Z",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-014fea0335d277138"
+              }
+            }
+          ],
+          "ClientToken": "fleet-b73ea484-e426-441c-ae38-07a873b66311-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::754272813611:instance-profile/eks-6ac83a1b-e2bd-407d-8826-848b3d6f08c5",
+            "Id": "AIPA27HRJYIVRHD3SUBKX"
+          },
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-3-101-110-88.us-west-1.compute.amazonaws.com",
+                "PublicIp": "3.101.110.88"
+              },
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:12:59.000Z",
+                "AttachmentId": "eni-attach-0fe745d17b42538a2",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-hilarious-wardrobe-1719936042-278788156",
+                  "GroupId": "sg-0bf80dcedc3320f04"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "02:69:0e:94:7a:f9",
+              "NetworkInterfaceId": "eni-0e07d68321c479668",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-42-149.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.42.149",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "ec2-3-101-110-88.us-west-1.compute.amazonaws.com",
+                    "PublicIp": "3.101.110.88"
+                  },
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-42-149.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.42.149"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-40-45.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.40.45"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-33-61.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.33.61"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-55-62.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.55.62"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-57-111.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.57.111"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-50-176.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.50.176"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-32-49.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.32.49"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-42-243.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.42.243"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-50-68.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.50.68"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-58-102.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.58.102"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-077b8b8fe927c8530",
+              "VpcId": "vpc-0285a21248ee5b072",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "eks-cluster-sg-hilarious-wardrobe-1719936042-278788156",
+              "GroupId": "sg-0bf80dcedc3320f04"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-b73ea484-e426-441c-ae38-07a873b66311"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-43688916"
+            },
+            {
+              "Key": "eks:cluster-name",
+              "Value": "hilarious-wardrobe-1719936042"
+            },
+            {
+              "Key": "kubernetes.io/cluster/hilarious-wardrobe-1719936042",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:eks:cluster-name",
+              "Value": "hilarious-wardrobe-1719936042"
+            },
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-43688916-6ac83a1b-e2bd-407d-8826-848b3d6f08c5"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-071fbc6a3cf67a174"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-43688916"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/hilarious-wardrobe-1719936042",
+              "Value": "owned"
+            },
+            {
+              "Key": "Name",
+              "Value": "hilarious-wardrobe-1719936042-ng-43688916-Node"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:12:59.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-0531f4c50be25e2ed"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-00e36ab640ce734db",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:24:04.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1c",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-192-168-32-124.us-west-1.compute.internal",
+          "PrivateIpAddress": "192.168.32.124",
+          "ProductCodes": [],
+          "PublicDnsName": "ec2-3-101-106-127.us-west-1.compute.amazonaws.com",
+          "PublicIpAddress": "3.101.106.127",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "StateTransitionReason": "",
+          "SubnetId": "subnet-08592eb9688d0130b",
+          "VpcId": "vpc-022dad28135a1ed1c",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2024-07-02T16:24:05.000Z",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-02ce321d7eaa8be5e"
+              }
+            }
+          ],
+          "ClientToken": "fleet-9f168e84-6c8e-4436-ae38-07008a8ad6ca-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::754272813611:instance-profile/eks-0ec83a21-25c6-875e-ca4a-2c22c01b7e28",
+            "Id": "AIPA27HRJYIVWKVZQ5YA2"
+          },
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-3-101-106-127.us-west-1.compute.amazonaws.com",
+                "PublicIp": "3.101.106.127"
+              },
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:24:04.000Z",
+                "AttachmentId": "eni-attach-0fe39f20ee1cd4f4c",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-floral-badger-1719936732-1812393005",
+                  "GroupId": "sg-059cbeb92cb2628ee"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "02:a9:7a:65:0e:1d",
+              "NetworkInterfaceId": "eni-001b0fcb3e97c0192",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-32-124.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.32.124",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "ec2-3-101-106-127.us-west-1.compute.amazonaws.com",
+                    "PublicIp": "3.101.106.127"
+                  },
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-32-124.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.32.124"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-36-120.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.36.120"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-49-72.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.49.72"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-49-89.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.49.89"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-33-122.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.33.122"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-63-106.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.63.106"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-33-224.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.33.224"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-63-99.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.63.99"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-59-53.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.59.53"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-48-38.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.48.38"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-08592eb9688d0130b",
+              "VpcId": "vpc-022dad28135a1ed1c",
+              "InterfaceType": "interface"
+            },
+            {
+              "Attachment": {
+                "AttachTime": "2024-07-02T16:24:47.000Z",
+                "AttachmentId": "eni-attach-008cf9dce93e167bf",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 1,
+                "Status": "attached",
+                "NetworkCardIndex": 0
+              },
+              "Description": "aws-K8S-i-00e36ab640ce734db",
+              "Groups": [
+                {
+                  "GroupName": "eks-cluster-sg-floral-badger-1719936732-1812393005",
+                  "GroupId": "sg-059cbeb92cb2628ee"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "02:83:dd:be:1b:c1",
+              "NetworkInterfaceId": "eni-01c52abdad110550e",
+              "OwnerId": "754272813611",
+              "PrivateDnsName": "ip-192-168-50-102.us-west-1.compute.internal",
+              "PrivateIpAddress": "192.168.50.102",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateDnsName": "ip-192-168-50-102.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.50.102"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-34-56.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.34.56"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-63-27.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.63.27"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-47-92.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.47.92"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-48-205.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.48.205"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-59-80.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.59.80"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-61-80.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.61.80"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-41-209.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.41.209"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-36-19.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.36.19"
+                },
+                {
+                  "Primary": false,
+                  "PrivateDnsName": "ip-192-168-33-55.us-west-1.compute.internal",
+                  "PrivateIpAddress": "192.168.33.55"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-08592eb9688d0130b",
+              "VpcId": "vpc-022dad28135a1ed1c",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "eks-cluster-sg-floral-badger-1719936732-1812393005",
+              "GroupId": "sg-059cbeb92cb2628ee"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-b65dcfd4-0ec83a21-25c6-875e-ca4a-2c22c01b7e28"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-b65dcfd4"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/floral-badger-1719936732",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-9f168e84-6c8e-4436-ae38-07008a8ad6ca"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            },
+            {
+              "Key": "aws:eks:cluster-name",
+              "Value": "floral-badger-1719936732"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-07a542e2fd0a4fd4f"
+            },
+            {
+              "Key": "eks:cluster-name",
+              "Value": "floral-badger-1719936732"
+            },
+            {
+              "Key": "kubernetes.io/cluster/floral-badger-1719936732",
+              "Value": "owned"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            },
+            {
+              "Key": "Name",
+              "Value": "floral-badger-1719936732-ng-b65dcfd4-Node"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-b65dcfd4"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:24:04.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-05abae350ed4b7b79"
+    },
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0181c0c2fcb68b684",
+          "InstanceId": "i-0bc98d29b0c1e052a",
+          "InstanceType": "m5.large",
+          "LaunchTime": "2024-07-02T16:32:41.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "us-west-1c",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "",
+          "ProductCodes": [],
+          "PublicDnsName": "",
+          "State": {
+            "Code": 48,
+            "Name": "terminated"
+          },
+          "StateTransitionReason": "User initiated (2024-07-26 19:03:55 GMT)",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [],
+          "ClientToken": "fleet-b50f8f2e-961f-4914-2418-8402ca13f58f-0",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "NetworkInterfaces": [],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [],
+          "StateReason": {
+            "Code": "Client.UserInitiatedShutdown",
+            "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          "Tags": [
+            {
+              "Key": "eks:cluster-name",
+              "Value": "beautiful-unicorn-1719937283"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:version",
+              "Value": "1"
+            },
+            {
+              "Key": "kubernetes.io/cluster/beautiful-unicorn-1719937283",
+              "Value": "owned"
+            },
+            {
+              "Key": "aws:autoscaling:groupName",
+              "Value": "eks-ng-5839a12c-eec83a24-e4b8-51ed-eed9-bbc6b5ab3eb7"
+            },
+            {
+              "Key": "aws:ec2:fleet-id",
+              "Value": "fleet-b50f8f2e-961f-4914-2418-8402ca13f58f"
+            },
+            {
+              "Key": "Name",
+              "Value": "beautiful-unicorn-1719937283-ng-5839a12c-Node"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-type",
+              "Value": "managed"
+            },
+            {
+              "Key": "eks:nodegroup-name",
+              "Value": "ng-5839a12c"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/enabled",
+              "Value": "true"
+            },
+            {
+              "Key": "alpha.eksctl.io/nodegroup-name",
+              "Value": "ng-5839a12c"
+            },
+            {
+              "Key": "aws:ec2launchtemplate:id",
+              "Value": "lt-0de3f2f62c4d852eb"
+            },
+            {
+              "Key": "k8s.io/cluster-autoscaler/beautiful-unicorn-1719937283",
+              "Value": "owned"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 2
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "MetadataOptions": {
+            "State": "pending",
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          },
+          "PlatformDetails": "Linux/UNIX",
+          "UsageOperation": "RunInstances",
+          "UsageOperationUpdateTime": "2024-07-02T16:32:41.000Z"
+        }
+      ],
+      "OwnerId": "754272813611",
+      "RequesterId": "033507975993",
+      "ReservationId": "r-0639faaf3bf8941f3"
+    }
+  ]
+}

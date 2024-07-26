@@ -1,0 +1,167 @@
+{
+  "__moment_demo_response_data": true,
+  "$metadata": {
+    "httpStatusCode": 200,
+    "requestId": "c5b21fa6-ddbb-45b5-8e76-f3c1f7d793c9",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "InstanceStatuses": [
+    {
+      "AvailabilityZone": "us-west-1b",
+      "InstanceId": "i-0950d4db37a308932",
+      "InstanceState": {
+        "Code": 16,
+        "Name": "running"
+      },
+      "InstanceStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      },
+      "SystemStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      }
+    },
+    {
+      "AvailabilityZone": "us-west-1b",
+      "InstanceId": "i-0116e04f03a1eb7e0",
+      "InstanceState": {
+        "Code": 16,
+        "Name": "running"
+      },
+      "InstanceStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      },
+      "SystemStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      }
+    },
+    {
+      "AvailabilityZone": "us-west-1c",
+      "InstanceId": "i-0385b48b25f56c673",
+      "InstanceState": {
+        "Code": 16,
+        "Name": "running"
+      },
+      "InstanceStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      },
+      "SystemStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      }
+    },
+    {
+      "AvailabilityZone": "us-west-1c",
+      "InstanceId": "i-0c5b630ba2222cc02",
+      "InstanceState": {
+        "Code": 16,
+        "Name": "running"
+      },
+      "InstanceStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      },
+      "SystemStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      }
+    },
+    {
+      "AvailabilityZone": "us-west-1b",
+      "InstanceId": "i-06c80e758e5d32940",
+      "InstanceState": {
+        "Code": 16,
+        "Name": "running"
+      },
+      "InstanceStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      },
+      "SystemStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      }
+    },
+    {
+      "AvailabilityZone": "us-west-1c",
+      "InstanceId": "i-00e36ab640ce734db",
+      "InstanceState": {
+        "Code": 16,
+        "Name": "running"
+      },
+      "InstanceStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      },
+      "SystemStatus": {
+        "Details": [
+          {
+            "Name": "reachability",
+            "Status": "passed"
+          }
+        ],
+        "Status": "ok"
+      }
+    }
+  ]
+}
